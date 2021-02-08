@@ -1,0 +1,17 @@
+void main(){
+  var data_siswa= ["Andre", "Nunung", "sule", "aziz", "parto"]; 
+  
+  data_siswa.add("Jamal mirdad");
+  data_siswa.remove("Nunung");
+  data_siswa=data_siswa.map((z)=>"Selamat datang kami ucapkan " +z.toString()).toList();
+  
+ for(int i=0;i < data_siswa.length; i++){
+    print(data_siswa[i]);
+   
+   
+  }
+}
+
+//SHAUMA AKBARI SAMBO
+//NIRM:2018020552
+//6 SIA 2
